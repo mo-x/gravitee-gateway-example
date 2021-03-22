@@ -1,0 +1,16 @@
+{
+  "repository": "http://xxxx.json",
+  "plugins": [
+    {
+      "name": "gravitee-policy-wh-h5-request-validation",
+      "opt": "update",
+      "from_version": "1.0.1",
+      "to_version": "1.0.2"
+    },
+    {
+      "name": "gravitee-reporter-kafka",
+      "opt": "add",
+      "version": "1.0.0"
+    }
+  ]
+}
